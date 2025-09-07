@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45C24E9F-3C10-C752-4B53-2B99876E4193" name="GRADO_ACADEMICO">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:41:17 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_grado" id="4872138E-A0CD-B2E4-D87A-7E7798C10DCD">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:41:28 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_grado" id="F701A23D-E8C2-D40D-3EA1-26252F4EB2D0">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:41:45 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F431216-F7DC-0892-EEF4-FC1CC2F14030" name="GRADO_ACADEMICO PK">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:41:44 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4872138E-A0CD-B2E4-D87A-7E7798C10DCD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

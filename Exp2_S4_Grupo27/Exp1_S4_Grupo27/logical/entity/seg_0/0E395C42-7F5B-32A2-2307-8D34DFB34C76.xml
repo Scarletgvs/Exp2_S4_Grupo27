@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E395C42-7F5B-32A2-2307-8D34DFB34C76" name="POSTULACON">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:42:59 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_postulacion" id="82331287-897E-5D20-B3CF-6969B4EEABA0">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:56:07 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_postulacion" id="84FD9B7E-7502-28E5-166B-6B83EEC2BEBC">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:56:21 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empresa" id="2416DC62-2D4F-7E6E-6299-550EFCA0961A">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 18:39:57 UTC</createdTime>
+<generatorID>E1A0F912-8215-F281-50DF-49E082495533</generatorID>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<referedAttribute>CA312957-8E66-AA60-6C61-C58BC8598016</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="folio_postulante" id="C316B2DF-9A17-F83D-FD9C-204DEB9006BC">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 18:40:16 UTC</createdTime>
+<generatorID>CD1556CF-9925-1C04-C2AB-4F03B335CE6F</generatorID>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<referedAttribute>8AEBEA08-F933-5455-100F-62BB4CCF83F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8AB0445D-897E-08FC-652F-D24693C8E22B" name="POSTULACON PK">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 17:04:35 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>82331287-897E-5D20-B3CF-6969B4EEABA0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C5E4AA0-0B62-C432-F873-6CCCA8B16D64" name="POSTULANTE">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:15:56 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="folio_postulante" id="8AEBEA08-F933-5455-100F-62BB4CCF83F5">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:16:02 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="3224A545-FFDD-0589-9A74-233D9F16029B">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:16:17 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="7F84E01E-3A7F-9B21-49BB-CABA5ABD0F3C">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:16:28 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nac" id="6CFBDDD8-4068-E376-213E-3524DA4B27CF">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:16:39 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_chile" id="3306CDF8-8FAC-4F6B-EDF7-E7E705FF404D">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:17:10 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="4832444B-AAE7-31F5-F992-5EF14D66048F">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 18:54:33 UTC</createdTime>
+<generatorID>D250EFD9-CF1C-F581-3B64-8EFC8C5DA0E3</generatorID>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<referedAttribute>CBCFD0B6-DB1F-41D6-E5D1-C1375A4C2423</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="4213CEF1-AAFA-EBD8-93CA-19835B1BAE22">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:16:50 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="renta_actual" id="4C777D2F-F745-A5CA-2C61-DE93E5C2CA1D">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:17:35 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sitio_web" id="17C7BB6F-9EC7-CE4F-DF77-986B8B1D6975">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:18:44 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado_civil" id="C879F956-DE24-0448-DAD7-D92AC6090974">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 17:18:24 UTC</createdTime>
+<generatorID>B6DD86C8-A955-0F7D-3E69-5ADEF11E2C97</generatorID>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<referedAttribute>ACBB98EC-36B1-7AEB-1142-596157B74556</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_grado" id="4FC16FDE-254B-9B6E-8F3B-881299A4F5EC">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 18:20:20 UTC</createdTime>
+<generatorID>1D46AEF2-0359-8256-82C3-B1CEE7F0B262</generatorID>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<referedAttribute>4872138E-A0CD-B2E4-D87A-7E7798C10DCD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nacionalidad" id="917C1D3E-FE7A-218C-A309-C48FB9321983">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 18:48:42 UTC</createdTime>
+<generatorID>8CCF5FE9-B721-DFDE-D856-40253017722E</generatorID>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<referedAttribute>FBD6264B-20A8-F0CC-4F80-499F53AC61AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_postulacion" id="73BDEBA0-EE67-D0BD-4E00-8A255CB6900F">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 19:19:15 UTC</createdTime>
+<generatorID>CD1556CF-9925-1C04-C2AB-4F03B335CE6F</generatorID>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<referedAttribute>82331287-897E-5D20-B3CF-6969B4EEABA0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA8C8609-F45F-4835-0E6A-E536D7009E24" name="POSTULANTE PK">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 15:16:16 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8AEBEA08-F933-5455-100F-62BB4CCF83F5</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3E016546-D23C-0F25-B1DA-66F2F805FDE4" name="Key_2">
+<createdBy>scarl</createdBy>
+<createdTime>2025-09-07 19:12:35 UTC</createdTime>
+<ownerDesignName>Exp1_S4_Grupo27</ownerDesignName>
+<engineerTo>
+<item key="C76F7857-843E-D584-ED3C-2FDDA875CE48" value="true"/>
+</engineerTo>
+<newElementsIDs>17C7BB6F-9EC7-CE4F-DF77-986B8B1D6975</newElementsIDs>
+<usedAttributes>
+<attributeRef>17C7BB6F-9EC7-CE4F-DF77-986B8B1D6975</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
